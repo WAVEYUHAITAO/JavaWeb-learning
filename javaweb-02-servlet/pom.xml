@@ -16,6 +16,7 @@
         <module>session-cookie-05</module>
         <module>jsp-06</module>
         <module>filter-07</module>
+        <module>filtertest-08</module>
     </modules>
 
     <properties>
@@ -37,12 +38,7 @@
             <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-servlet-api -->
-        <dependency>
-            <groupId>org.apache.tomcat</groupId>
-            <artifactId>tomcat-servlet-api</artifactId>
-            <version>10.0.7</version>
-        </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/tomcat/jasper-runtime -->
         <dependency>

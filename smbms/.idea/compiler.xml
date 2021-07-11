@@ -6,14 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="response-03" />
-        <module name="jsp-06" />
-        <module name="request-04" />
-        <module name="servlet-02" />
-        <module name="filter-07" />
-        <module name="servlet-01" />
-        <module name="filtertest-08" />
-        <module name="session-cookie-05" />
+        <module name="smbms" />
       </profile>
     </annotationProcessing>
   </component>
