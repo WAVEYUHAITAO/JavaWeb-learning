@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="request-04:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/request_04_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="request-04" />
+        </element>
+        <element id="directory" name="lib" />
+      </element>
+      <element id="javaee-facet-resources" facet="request-04/web/Web" />
+    </root>
+  </artifact>
+</component>

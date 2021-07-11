@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="response-03" />
+        <module name="jsp-06" />
+        <module name="request-04" />
+        <module name="servlet-02" />
+        <module name="filter-07" />
+        <module name="servlet-01" />
+        <module name="session-cookie-05" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

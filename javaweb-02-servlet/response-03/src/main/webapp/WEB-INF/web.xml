@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!--注册servlet-->
+    <servlet>
+        <servlet-name>servlet01</servlet-name>
+        <servlet-class>com.hito.servlet.FileServlet</servlet-class>
+    </servlet>
+    <!--路径映射-->
+    <servlet-mapping>
+        <servlet-name>servlet01</servlet-name>
+        <!--servlet通配路径-->
+        <url-pattern>/servlet01/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>servlet01</servlet-name>
+        <!--servlet路径可以指定多个-->
+        <url-pattern>/servlet02</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>servlet01</servlet-name>
+        <!--servlet路径可以指定多个-->
+        <url-pattern>/servlet03</url-pattern>
+    </servlet-mapping>
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>servlet01</servlet-name>-->
+<!--        &lt;!&ndash;如果直接用/*会直接进入这个servlet把首页干掉，所以尽量不要这样写&ndash;&gt;-->
+<!--        <url-pattern>/*</url-pattern>-->
+<!--    </servlet-mapping>-->
+    <servlet-mapping>
+        <servlet-name>servlet01</servlet-name>
+        <!--servlet这里的映射路径为*.hito这里不能加/-->
+        <url-pattern>*.hito</url-pattern>
+    </servlet-mapping>
+
+<!--    404-->
+    <servlet>
+        <servlet-name>error</servlet-name>
+        <servlet-class>com.hito.servlet.ErrorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <!--默认会进去404，但是如果有固定的映射名就走那个路径名-->
+        <servlet-name>error</servlet-name>
+        <url-pattern>/err</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ImageServlet</servlet-name>
+        <servlet-class>com.hito.servlet.ImageServlet</servlet-class>
+    </servlet>
+    <!--路径映射-->
+    <servlet-mapping>
+        <servlet-name>ImageServlet</servlet-name>
+        <!--servlet通配路径-->
+        <url-pattern>/img</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RedirectServlet</servlet-name>
+        <servlet-class>com.hito.servlet.RedirectServlet</servlet-class>
+    </servlet>
+    <!--路径映射-->
+    <servlet-mapping>
+        <servlet-name>RedirectServlet</servlet-name>
+        <!--servlet通配路径-->
+        <url-pattern>/red</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>request</servlet-name>
+        <servlet-class>com.hito.servlet.RequestTest</servlet-class>
+    </servlet>
+    <!--路径映射-->
+    <servlet-mapping>
+        <servlet-name>request</servlet-name>
+        <!--servlet通配路径-->
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+</web-app>

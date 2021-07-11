@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        position: relative;
+        top: 20px;
+        animation: animation 5s linear 2s infinite alternate;
+        -moz-animation: animation 5s linear 2s infinite alternate;
+        -webkit-animation: animation 5s linear 2s infinite alternate;
+        -o-animation: animation 5s linear 2s infinite alternate;
+        border-radius: 10px;
+        box-shadow: 0 0 50px black;
+      }
+      div[id="ani_test"] {
+        border: 1px solid black;
+        border-radius: 20px;
+        position: absolute;
+        top: 200px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        background-color: green;
+        animation: animation 5s linear 2s infinite alternate;
+        -webkit-animation: animation 5s linear 2s infinite alternate;
+      }
+
+      @keyframes animation {
+        0% {
+          transform: rotate(0deg);
+          left: 0;
+        }
+        30% {
+          transform: rotate(90deg);
+          left: 100px;
+        }
+        60% {
+          transform: rotate(180deg);
+          left: 200px;
+        }
+        75% {
+          transform: rotate(360deg);
+          left: 300px;
+        }
+        85% {
+          transform: rotate(720deg);
+          left: 500px;
+        }
+        100% {
+          transform: rotate(0deg);
+          left: 0;
+        }
+      }
+      /* Firefox */
+      @-moz-keyframes animation {
+        0% {
+          transform: rotate(0deg);
+          left: 0;
+        }
+        30% {
+          transform: rotate(90deg);
+          left: 100px;
+        }
+        60% {
+          transform: rotate(180deg);
+          left: 200px;
+        }
+        75% {
+          transform: rotate(360deg);
+          left: 300px;
+        }
+        85% {
+          transform: rotate(180deg);
+          left: 100px;
+        }
+        100% {
+          transform: rotate(0deg);
+          left: 0;
+        }
+      }
+      /* Safari and Chrome */
+      @-webkit-keyframes animation {
+        0% {
+          transform: rotate(0deg);
+          left: 0;
+        }
+        30% {
+          transform: rotate(90deg);
+          left: 100px;
+        }
+        60% {
+          transform: rotate(180deg);
+          left: 200px;
+        }
+        75% {
+          transform: rotate(360deg);
+          left: 300px;
+        }
+        85% {
+          transform: rotate(180deg);
+          left: 100px;
+        }
+        100% {
+          transform: rotate(0deg);
+          left: 0;
+        }
+      }
+      /* Opera */
+      @-o-keyframes animation {
+        0% {
+          transform: rotate(0deg);
+          left: 0;
+        }
+        30% {
+          transform: rotate(90deg);
+          left: 100px;
+        }
+        60% {
+          transform: rotate(180deg);
+          left: 200px;
+        }
+        75% {
+          transform: rotate(360deg);
+          left: 300px;
+        }
+        85% {
+          transform: rotate(180deg);
+          left: 100px;
+        }
+        100% {
+          transform: rotate(0deg);
+          left: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="resources/image/缺氧.png" alt="" />
+    </div>
+    <div id="ani_test">
+      <p>css</p>
+      <p>java 学习</p>
+
+	
+  </body>
+</html>
