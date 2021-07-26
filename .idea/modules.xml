@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaWeb-learning.iml" filepath="$PROJECT_DIR$/.idea/JavaWeb-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-02-servlet/filter-07/filter-07.iml" filepath="$PROJECT_DIR$/javaweb-02-servlet/filter-07/filter-07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-02-servlet/filtertest-08/filtertest-08.iml" filepath="$PROJECT_DIR$/javaweb-02-servlet/filtertest-08/filtertest-08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-01-maven/javaweb-01-maven.iml" filepath="$PROJECT_DIR$/javaweb-01-maven/javaweb-01-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-02-servlet/javaweb-02-servlet.iml" filepath="$PROJECT_DIR$/javaweb-02-servlet/javaweb-02-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-03-JDBC/javaweb-03-JDBC.iml" filepath="$PROJECT_DIR$/javaweb-03-JDBC/javaweb-03-JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-02-servlet/jsp-06/jsp-06.iml" filepath="$PROJECT_DIR$/javaweb-02-servlet/jsp-06/jsp-06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-02-servlet/request-04/request-04.iml" filepath="$PROJECT_DIR$/javaweb-02-servlet/request-04/request-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-02-servlet/response-03/response-03.iml" filepath="$PROJECT_DIR$/javaweb-02-servlet/response-03/response-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-02-servlet/servlet-01/servlet-01.iml" filepath="$PROJECT_DIR$/javaweb-02-servlet/servlet-01/servlet-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-02-servlet/servlet-02/servlet-02.iml" filepath="$PROJECT_DIR$/javaweb-02-servlet/servlet-02/servlet-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-02-servlet/session-cookie-05/session-cookie-05.iml" filepath="$PROJECT_DIR$/javaweb-02-servlet/session-cookie-05/session-cookie-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smbms/smbms.iml" filepath="$PROJECT_DIR$/smbms/smbms.iml" />
+    </modules>
+  </component>
+</project>

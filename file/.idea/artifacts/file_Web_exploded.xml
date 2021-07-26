@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="file:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/file_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="file/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="file" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.4" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.11.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

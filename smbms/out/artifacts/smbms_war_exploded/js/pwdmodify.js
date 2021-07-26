@@ -16,7 +16,7 @@ $(function(){
 	oldpassword.on("blur",function(){
 		$.ajax({
 			type:"GET",
-			url:"/smbms/jsp/user.do",
+			url:path+"/jsp/user.do",
 			//url:path+"/jsp/user.do",
 			data:{method:"pwdmodify",oldpassword:oldpassword.val()},	//Ajax传递的参数
 			//path+/jsp/user.do?method=pwdmodify&oldpassword=oldpassword.val();
@@ -72,7 +72,8 @@ $(function(){
 		rnewpassword.blur();
 		if(
 			oldpassword.attr("validateStatus") == "true"
-			&& newpassword.attr("validateStatus") == "true"
+			&&
+			 newpassword.attr("validateStatus") == "true"
 			&& rnewpassword.attr("validateStatus") == "true"){
 			if(confirm("确定要修改密码？")){
 				$("#userForm").submit();
