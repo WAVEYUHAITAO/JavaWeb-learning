@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f6698b-2320-4ade-b2d1-8a12995fd666" name="Default Changelist" comment="" />
+    <list default="true" id="57f6698b-2320-4ade-b2d1-8a12995fd666" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hito/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hito/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,7 +230,7 @@
       <updated>1627202062352</updated>
       <workItem from="1627202064432" duration="1018000" />
       <workItem from="1627203103084" duration="25002000" />
-      <workItem from="1627278464391" duration="624000" />
+      <workItem from="1627278464391" duration="1258000" />
     </task>
     <servers />
   </component>
