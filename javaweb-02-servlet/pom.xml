@@ -38,8 +38,6 @@
             <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
-
-
         <!-- https://mvnrepository.com/artifact/tomcat/jasper-runtime -->
         <dependency>
             <groupId>tomcat</groupId>
@@ -52,7 +50,6 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl-api -->
         <dependency>
             <groupId>javax.servlet.jsp.jstl</groupId>
@@ -89,6 +86,5 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.25</version>
         </dependency>
-
     </dependencies>
 </project>
